@@ -171,6 +171,10 @@ body {
     .author-row {
         height: 35px;
     }
+
+    .link-labels {
+        width: 100% !important;
+    }
 } 
 
 .citation {
