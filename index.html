@@ -21,7 +21,7 @@
     <meta property="og:type" content="website" />
     <meta content="summary_large_image" name="twitter:card" />
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
-    <link href="style.css" rel="stylesheet" type="text/css" /> 
+    <link href="style.css?v=v1" rel="stylesheet" type="text/css" /> 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css" crossorigin="anonymous">
 
 </head>
@@ -71,7 +71,7 @@
             <div class="link-labels base-row">
                 <div class="base-col icon-col"><a href="https://arxiv.org/pdf/2305.13655.pdf" target="_blank"
                         class="link-block">
-                    <i class="fa fas fa-book main-icon" style="font-size: 75px"></i>
+                    <i class="fa fas fa-file-text main-icon" style="font-size: 75px"></i>
                     </a></div>
                 <div class="base-col icon-col"><a href='https://bair.berkeley.edu/blog/2023/05/23/lmd/' class="link-block">
                     <i class="fa fa-rss main-icon" style="font-size: 75px"></i>
@@ -79,9 +79,12 @@
                 <div class="base-col icon-col"><a href='https://huggingface.co/spaces/longlian/llm-grounded-diffusion' class="link-block">
                     <i class="fa fa-cube main-icon" style="font-size: 75px"></i>
                     </a></div>
-                    <div class="base-col icon-col"><a href='https://github.com/TonyLianLong/LLM-groundedDiffusion' class="link-block">
-                        <i class="fa fa-github main-icon" style="font-size: 75px"></i>
-                        </a></div>
+                <div class="base-col icon-col"><a href='https://github.com/TonyLianLong/LLM-groundedDiffusion' class="link-block">
+                    <i class="fa fa-github main-icon" style="font-size: 75px"></i>
+                    </a></div>
+                <div class="base-col icon-col"><a href='lmd_poster.png' class="link-block">
+                    <i class="fa fa-list-alt main-icon" style="font-size: 75px"></i>
+                    </a></div>
                 <div class="base-col icon-col"><a href="#citation" class="link-block">
                     <i class="fa fa-graduation-cap main-icon" style="font-size: 75px"></i>
                     </a></div>
@@ -98,6 +101,9 @@
                 </div>
                 <div class="base-col icon-col">
                     <strong class="link-labels-text">Code</strong>
+                </div>
+                <div class="base-col icon-col">
+                    <strong class="link-labels-text">Poster</strong>
                 </div>
                 <div class="base-col icon-col">
                     <strong class="link-labels-text">Citation</strong>
@@ -117,9 +123,20 @@
                 We equip diffusion models with enhanced spatial and common sense reasoning by using off-the-shelf frozen LLMs in a novel two-stage generation process.
                 </p>
                 <div class="base-row add-top-padding">
-                    <img class="img" src="main_figure.jpg" />
+                    <a href="lmd_poster.png">
+                        <img class="img" src="main_figure.jpg" />
+                    </a>
                 </div>
             </div>
+
+            <!-- <div class="base-row add-top-padding">
+                <h1 id="abstract">Poster</h1>
+                <div class="base-row add-top-padding">
+                    <a href="lmd_poster.png">
+                        <img class="img" src="lmd_poster.png" />
+                    </a>
+                </div>
+            </div> -->
 
             <div class="base-row add-top-padding">
                 <h1>Visualizations</h1>
