@@ -29,7 +29,7 @@ body {
     font-size: 35px;
     line-height: 50px;
     font-weight: 600;
-    letter-spacing: 2;
+    letter-spacing: 1.25;
 }
 
 .subheader {
@@ -59,8 +59,8 @@ body {
 }
 
 .base-row {
-    margin-left: -10px;
-    margin-right: -10px;
+    margin-left: 0px;
+    margin-right: 0px;
 }
 
 .base-col {
@@ -186,8 +186,9 @@ body {
     background-color: #eaeaea;
     text-align: left;
     border-radius: 10px;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding: 5px;
+    margin: 20px 0;
+    overflow: scroll;
 }
 
 .citation > h1 {
