@@ -133,7 +133,22 @@ body {
     font-family: 'Open Sans',sans-serif;
     color: #333;
     font-size: 14px;
+    
 }
+
+.no-underline:link { 
+    text-decoration: none; 
+} 
+.no-underline:visited { 
+    text-decoration: none; 
+} 
+.no-underline:hover { 
+    text-decoration: none; 
+} 
+.no-underline:active { 
+    text-decoration: none; 
+}
+  
 
 #main-video {
     width: 90%;
